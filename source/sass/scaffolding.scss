@@ -1,0 +1,73 @@
+@font-face {
+  font-weight: 400;
+  font-family: "Raleway";
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/raleway-regular.woff2") format("woff2"),
+    url("../fonts/raleway-regular.woff") format("woff");
+}
+
+@font-face {
+  font-weight: 600;
+  font-family: "Raleway";
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/regular-600.woff2") format("woff2"),
+    url("../fonts/regular-600.woff") format("woff");
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: "Cormorant";
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/cormorant-regular.woff2") format("woff2"),
+    url("../fonts/cormorant-regular.woff") format("woff");
+}
+
+@font-face {
+  font-weight: 600;
+  font-family: "Cormorant";
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/cormorant-600.woff2") format("woff2"),
+    url("../fonts/cormorant-600.woff") format("woff");
+}
+
+body {
+  min-width: 1200px;
+  margin: 0;
+  padding: 0;
+
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  font-family: "Raleway", "Arial", sans-serif;
+  font-style: normal;
+  color: #000000;
+
+  background-color: #edeff6;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  background-position: 0 0;
+}

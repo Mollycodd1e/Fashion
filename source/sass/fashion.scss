@@ -1,0 +1,205 @@
+.fashion {
+  width: 705px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.fashion__title {
+  font-family: "Cormorant";
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 37px;
+  margin: 0;
+}
+
+.fashion__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.fashion__item {
+  position: relative;
+  margin-top: 50px;
+
+  &::after {
+    position: absolute;
+    content: "";
+    bottom: -20px;
+
+    width: 705px;
+    height: 1px;
+    opacity: 0.2;
+
+    background-color: #000000;
+  }
+}
+
+.fashion__item:nth-child(4)::after,
+.fashion__item:last-child::after {
+  background-color: #ffffff;
+}
+
+.fashion__designer {
+  margin: 0;
+  margin-top: 30px;
+  width: 279px;
+  text-align: justify;
+}
+
+.fashion__photo-signature {
+  font-family: "Raleway";
+  font-size: 16px;
+  line-height: 24px;
+  text-align: justify;
+  opacity: 0.3;
+}
+
+.fashion__designer-name {
+  font-family: "Cormorant";
+  margin: 0;
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 37px;
+}
+
+.fashion__designer-description {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+
+  text-align: justify;
+}
+
+.fashion__designer-description a,
+.fashion__designer-text a {
+  text-decoration: underline;
+
+  color: #760801;
+}
+
+.fashion__item--aside {
+  position: relative;
+}
+
+.fashion__aside-hashtag {
+  width: 187px;
+  position: absolute;
+  left: -240px;
+  color: #ffffff;
+  background-color: #000000;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  cursor: pointer;
+
+  &::before,
+  &::after {
+    position: absolute;
+    content: "";
+    left: 70px;
+    width: 41.5px;
+    height: 1px;
+
+    background-color: #E9D6C7;
+  }
+
+  &::before {
+    top: 15px;
+  }
+
+  &::after {
+    bottom: 15px;
+  }
+}
+
+.fashion__aside-advert {
+  width: 1170px;
+  display: flex;
+  min-height: 263px;
+  margin: 0 auto;
+  padding-bottom: 64px;
+  margin-left: -230px;
+  background-color: #000000;
+}
+
+.fashion__aside-link {
+  text-decoration: none;
+
+  color: #ffffff;
+}
+
+.fashion__aside-text {
+  font-family: "Cormorant";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.fashion__aside-adress {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.fashion__advertising {
+  width: 360px;
+  margin-top: 74px;
+  margin-left: 110px;
+}
+
+.fashion__advert-title {
+  font-family: "Cormorant";
+  width: 324px;
+  margin: 0;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 51px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+.fashion__advert-link {
+  display: block;
+  font-family: "Raleway";
+  font-weight: 400;
+  margin-top: 30px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.06em;
+
+  color: #FFFFFF;
+}
+
+.fashion__advert-text {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.06em;
+  margin: 0;
+  margin-top: 20px;
+  padding-left: 40px;
+
+  color: #FFFFFF;
+
+  background-image: url("../img/video.svg");
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.fashion__advert-image {
+  position: absolute;
+  bottom: -50px;
+  right: -160px;
+}

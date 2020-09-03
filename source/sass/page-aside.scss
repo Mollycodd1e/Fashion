@@ -1,0 +1,50 @@
+.page-aside {
+  position: relative;
+  width: 1170px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.page-aside__wrapper {
+  position: relative;
+  width: 786px;
+  margin: 0 auto;
+  z-index: 10;
+
+  background-color: #ffffff;
+}
+
+.page-aside__text {
+  font-family: "Cormorant";
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 85px;
+  margin: 0;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.page-aside__text span {
+  font-size: 50px;
+}
+
+.page-aside__link {
+  position: absolute;
+  left: 50%;
+  padding-left: 33px;
+  padding-right: 33px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  z-index: 10;
+  margin: 0 auto;
+  margin-left: -126px;
+  text-decoration: none;
+
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.page-aside__image {
+  margin-top: -90px;
+}

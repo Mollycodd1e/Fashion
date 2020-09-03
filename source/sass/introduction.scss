@@ -1,0 +1,166 @@
+.introduction{
+  width: 1170px;
+  margin-top: 35px;
+}
+
+.introduction__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.introduction__link {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  color: #000000;
+}
+
+.introduction__link[href]::after {
+  content: "/";
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.introduction__wrapper {
+  position: relative;
+  width: 1170px;
+  height: 373px;
+  margin-top: 70px;
+  padding-top: 80px;
+  background-color: rgba(0, 0, 0, 0.3);
+
+  &::after,
+  &::before {
+    position: absolute;
+    content: "";
+    width: 93.5px;
+    height: 96.5px;
+
+    border: 1px solid #FFFFFF;
+  }
+
+  &::after {
+    top: 30px;
+    left: 30px;
+    border-right: none;
+    border-bottom: none;
+  }
+
+  &::before {
+    top: 320px;
+    left: 1043.5px;
+    border-left: none;
+    border-top: none;
+  }
+}
+
+.introduction__title {
+  width: 870px;
+  margin:0 auto;
+  text-align: center;
+  font-family: "Cormorant";
+  font-style: normal;
+  font-size: 60px;
+  line-height: 90px;
+  font-weight: 400;
+  letter-spacing: 0.06em;;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.introduction__term-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.introduction__term-wrapper {
+  display: flex;
+  margin: 0 auto;
+}
+
+.introduction__term,
+.introduction__definition {
+  font-family: "Raleway";
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #ffffff;
+}
+
+.introduction__description-wrapper {
+  width: 705px;
+  margin:0 auto;
+  margin-top: 170px;
+}
+
+.introduction__description {
+  font-family: "Cormorant";
+  margin: 0;
+  font-size: 25px;
+  line-height: 37px;
+  font-weight: 600;
+  margin-bottom: 50px;
+
+  text-align: justify;
+}
+
+.introduction__quote {
+  position: relative;
+  font-family: "Cormorant";
+  font-size: 30px;
+  line-height: 51px;
+  font-weight: 600;
+  width: 750px;
+  margin: 0 auto;
+  margin-top: 110px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+
+  background-image: url("../img/quote.svg");
+  background-repeat: no-repeat;
+  background-position: center 0;
+}
+
+.introduction__quote-text {
+  position: relative;
+
+  &::after,
+  &::before {
+    position: absolute;
+    content: "“";
+    top: -20px;
+    font-family: "Cormorant";
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 85px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  &::after {
+    margin-left: 10px;
+  }
+
+  &::before {
+    left: 30px;
+  }
+}
+
+.introduction__quote-author {
+  font-family: "Raleway";
+  font-size: 16px;
+  line-height: 27px;
+  font-weight: 400;
+  text-transform: none;
+}
